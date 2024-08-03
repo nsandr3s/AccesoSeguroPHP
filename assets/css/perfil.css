@@ -1,0 +1,75 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+}
+
+/* Contenedor principal del perfil */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #2e2e2e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #b8860b; 
+    color: #fff;
+}
+
+/* Estilos para el título del perfil */
+.profile-container h1 {
+    margin: 0 0 20px;
+    color: #b8860b; 
+}
+
+/* Estilos para los párrafos en el perfil */
+.profile-container p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* Estilos para los enlaces dentro del perfil */
+.profile-container a {
+    color: #b8860b; 
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Estilo para los enlaces cuando el cursor pasa sobre ellos */
+.profile-container a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para botones de Administrador */
+.profile-container.Administrador a.admin-button {
+    background-color: #ffbf00; 
+    color: #1c1c1c;
+}
+
+/* Estilo para los botones de Administrador al pasar el cursor sobre ellos */
+.profile-container.Administrador a.admin-button:hover {
+    background-color: #e0a800; 
+}
+
+/* Estilos específicos para botones de Cliente */
+.profile-container.Cliente a.client-button {
+    background-color: #007bff; 
+    color: #fff;
+}
+
+/* Estilo para los botones de Cliente al pasar el cursor sobre ellos */
+.profile-container.Cliente a.client-button:hover {
+    background-color: #0056b3; 
+}

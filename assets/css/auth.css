@@ -1,0 +1,89 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #adadad;
+}
+
+/* Contenedor principal del formulario de inicio de sesión */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #2e2e2e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #b8860b; 
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.login-form {
+    width: 100%;
+}
+
+/* Estilos para el título del formulario */
+.login-form h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #b8860b; 
+}
+
+/* Estilos para los campos de entrada y el selector del formulario */
+.login-form input,
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+/* Estilo para los marcadores de posición en los campos de entrada y el selector */
+.login-form input::placeholder,
+.login-form select {
+    color: #b8860b;
+}
+
+/* Estilos para el botón del formulario */
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b8860b; 
+    color: #1c1c1c;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón cuando el cursor pasa sobre él */
+.login-form button:hover {
+    background-color: #daa520; 
+}
+
+/* Estilos para los párrafos en el formulario */
+.login-form p {
+    text-align: center;
+    color: #b8860b; 
+}
+
+/* Estilos para los enlaces dentro de los párrafos */
+.login-form p a {
+    color: #daa520;
+    text-decoration: none;
+}
+
+/* Estilo para el enlace cuando el cursor pasa sobre él */
+.login-form p a:hover {
+    text-decoration: underline;
+}
+
